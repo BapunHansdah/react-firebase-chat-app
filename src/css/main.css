@@ -1,0 +1,148 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ background-color: #0f1111d6;
+ width: 600px;
+ height: 100vh;
+}
+
+.auth-btn-container{
+   padding: 100px 80px 100px 80px;
+   border-radius: 20px;
+   background-color: black;
+  display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.welcome{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.title{
+   font-size: 2em;
+   font-weight: 700;
+   color: #ffe52e;
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.google-btn{
+   display: flex;
+   align-items: center;
+   width: 250px;
+   border: 1px solid #4285f4;
+   height: 50px;
+}
+.google-btn>div{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.google-logo{
+	background-color: white;
+	width: 100%;
+  flex: 1;
+}
+.google-text{
+	flex: 4;
+	color: white;
+	background-color:#4285f4;
+
+}
+
+.full-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	height: 100vh;
+}
+.full-home-container{
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	background-color: black;
+}
+img{
+	width: 30px;
+	border-radius: 50%;
+}
+.auth{
+  background-color: red;
+}
+
+.message-lists{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding: 20px;
+	justify-content: flex-end;
+}
+.messages{
+	display: flex;
+	align-items: center;
+	gap:10px;
+	width: 500px;
+	align-items: flex-end;
+
+}
+.messages.right{
+	flex-direction: row-reverse;
+}
+
+.text-box{
+	background-color: black;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px 10px 5px 10px;
+
+}
+.remove-button{
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.text{
+	font-size: .9em;
+	flex-wrap: wrap;
+	width: 100%;
+	overflow-wrap:break-word;
+	max-width: 300px;
+	white-space: break-spaces;
+}
+
+.name{
+	display: flex;
+	font-size: .6em;
+	opacity: .7;
+	justify-content: flex-end;
+}
+
+
+.action-box{
+	margin-top: 20px;
+   display: flex;
+}
+
+.action-box>.textarea{
+  flex: 3;
+}
+.action-box>.button{
+  flex: 1;
+}
+.button>button{
+	 all: unset;
+	 background-color: black;
+	 color: white;
+   display: flex;
+   width: 100%;
+   height: 100%;
+   font-size: 1.2em;
+   align-items: center;
+   justify-content: center;
+}
